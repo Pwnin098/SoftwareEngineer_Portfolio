@@ -1,0 +1,3 @@
+READ ME--
+
+This was my first fully from scratch landing page I made! Nothing but HTML and CSS here! I wanted to make a small character sheet for my Final Fantasy 14 character and style it up with images of him! ^^ Not too shabby for a first attempt I think, though I can already see there are some issues that need fixing.

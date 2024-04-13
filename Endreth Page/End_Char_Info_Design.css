@@ -1,0 +1,156 @@
+html {
+    box-sizing: border-box;
+    
+}
+
+.top_hBorder1 {
+    display: flex;
+    position: absolute;
+    border: solid black;
+    border-bottom-right-radius: 5%;
+    background: linear-gradient(-90deg, rgba(12, 14, 31), rgb(99, 98, 163, 1));
+    width: 25%;
+    height: 13vh;
+}
+
+
+header {
+
+    background-image: url(https://cdn.discordapp.com/attachments/1205901811832328257/1228068284839104545/ffxiv_dx11_2024-04-10_13-10-20.png?ex=662ab2b7&is=66183db7&hm=6a239e96012772dd00d021dc06748a2161c9e3f301f518397ca943620b4b779a&);
+    background-size: 80%;
+    background-position: right;
+    background-position-y: 7%;
+    background-repeat: no-repeat;
+    border: solid black;
+    border-radius: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 100%;
+    height: 13vh;
+    color: white;
+}
+
+h1 {
+    display: flex;
+    text-shadow: 6px 6px 4px black;
+    margin-top: 10%;
+    margin-bottom: 90%;
+    margin-left: 25%;
+    margin-right: auto;
+    color: white;
+    position: absolute;
+
+}
+
+body {
+    margin: 0%;
+    background-image: url(https://cdn.discordapp.com/attachments/1205901811832328257/1227946048841060433/End_background_02.png?ex=662a40e0&is=6617cbe0&hm=c09657bbd024485d0bc05a7cc48e4ee7bacfd73448fd0bd44f95afa41251d8ce&);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+main {
+    width: 60%;
+    
+    border: solid black;
+    border-radius: 2%;
+    background: linear-gradient( rgba(40, 44, 88, 0.9), rgba(99, 98, 163, 0.9), rgba(199, 97, 29, 0.9));
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    
+}
+
+.subtext {
+    text-align: center;
+
+}
+
+
+h2 {
+    font-size: 160%;
+    position: relative;
+    right: -5%;
+    color: rgb(255, 150, 80);
+    text-shadow: 4px 4px 4px black;
+    
+}
+
+h3 {
+    position: absolute;
+    left: 10%;
+    top: 4%;
+}
+
+.h22 {
+    color: rgb(170, 168, 255);
+}
+
+p {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 110%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-shadow: 4px 4px 4px black;
+    
+}
+
+
+
+hr {
+    width: 98%;
+    height: 6px;
+    background-color: black;
+    border-radius: 10px;
+    border-width: 0;
+    
+}
+
+#bottom_divide {
+    width: 65%;
+    height: 6px;
+    background-color: black;
+    border-radius: 10px;
+    
+}
+
+.b_bar {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(24, 26, 46);
+    
+}
+
+
+
+iframe {   
+    top: 25%;
+    border: solid black;
+    border-radius: 10px;
+    
+}
+
+.vid_theme {
+    position: absolute;
+    right: 25%;
+    
+}
+
+@media (max-width: 1300px) {
+    iframe {
+        width: 180px;
+        height: 101px;
+    }
+}
+
+@media (max-width: 800px) {
+    .vid_theme {
+        visibility: hidden;
+    }
+}
+
